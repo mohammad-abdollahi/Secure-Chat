@@ -1,0 +1,137 @@
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, 
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, ****************************
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, Starting factorization of 101886383249647936993768038558632029819971268904921994147982510997493202861459
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, using pretesting plan: normal
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, no tune info: using qs/gnfs crossover of 95 digits
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, ****************************
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, rho: x^2 + 3, starting 1000 iterations on C78
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, rho: x^2 + 2, starting 1000 iterations on C78
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, rho: x^2 + 1, starting 1000 iterations on C78
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, pm1: starting B1 = 150K, B2 = gmp-ecm default on C78
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, current ECM pretesting depth: 0.00
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, scheduled 30 curves at B1=2000 toward target pretesting depth of 24.00
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, Finished 30 curves using Lenstra ECM method on C78 input, B1=2K, B2=gmp-ecm default
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, current ECM pretesting depth: 15.18
+05/06/20 08:08:22 v1.34.5 @ DESKTOP-MDMQAAG, scheduled 74 curves at B1=11000 toward target pretesting depth of 24.00
+05/06/20 08:08:24 v1.34.5 @ DESKTOP-MDMQAAG, Finished 74 curves using Lenstra ECM method on C78 input, B1=11K, B2=gmp-ecm default
+05/06/20 08:08:24 v1.34.5 @ DESKTOP-MDMQAAG, current ECM pretesting depth: 20.24
+05/06/20 08:08:24 v1.34.5 @ DESKTOP-MDMQAAG, scheduled 161 curves at B1=50000 toward target pretesting depth of 24.00
+05/06/20 08:08:43 v1.34.5 @ DESKTOP-MDMQAAG, Finished 161 curves using Lenstra ECM method on C78 input, B1=50K, B2=gmp-ecm default
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, final ECM pretested depth: 24.00
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, scheduler: switching to sieve method
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, starting SIQS on c78: 101886383249647936993768038558632029819971268904921994147982510997493202861459
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, random seeds: 748412637, 466904954
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, ==== sieve params ====
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, n = 78 digits, 256 bits
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, factor base: 36160 primes (max prime = 912007)
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, single large prime cutoff: 77520595 (85 * pmax)
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, allocating 7 large prime slices of factor base
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, buckets hold 2048 elements
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, using 32k sieve core
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, sieve interval: 10 blocks of size 32768
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, polynomial A has ~ 10 factors
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, using multiplier of 1
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, using SPV correction of 20 bits, starting at offset 31
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, using SSE2 for trial division and x64 sieve scanning
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, using SSE4.1 enabled 32k sieve core
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, using SSE2 for resieving 13-16 bit primes
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, trial factoring cutoff at 88 bits
+05/06/20 08:08:44 v1.34.5 @ DESKTOP-MDMQAAG, ==== sieving started (1 thread) ====
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, trial division touched 4411645 sieve locations out of 46369996800
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, 36266 relations found: 18157 full + 18109 from 190202 partial, using 70755 polys (284 A polys)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, on average, sieving found 2.94 rels/poly and 2035.24 rels/sec
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, trial division touched 4411645 sieve locations out of 46369996800
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, ==== post processing stage (msieve-1.38) ====
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, begin with 208359 relations
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, reduce to 52098 relations in 2 passes
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, recovered 52098 relations
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, recovered 36734 polynomials
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, freed 18 duplicate relations
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, attempting to build 36248 cycles
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, found 36248 cycles in 1 passes
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, distribution of cycle lengths:
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG,    length 1 : 18155
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG,    length 2 : 18093
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, largest cycle: 2 relations
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, matrix is 36160 x 36248 (5.2 MB) with weight 1067635 (29.45/col)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, sparse part has weight 1067635 (29.45/col)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, filtering completed in 3 passes
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, matrix is 25832 x 25895 (4.1 MB) with weight 862129 (33.29/col)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, sparse part has weight 862129 (33.29/col)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, saving the first 48 matrix rows for later
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, matrix is 25784 x 25895 (3.3 MB) with weight 697415 (26.93/col)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, sparse part has weight 614174 (23.72/col)
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, matrix includes 64 packed rows
+05/06/20 08:10:26 v1.34.5 @ DESKTOP-MDMQAAG, using block size 10358 for processor cache size 3072 kB
+05/06/20 08:10:27 v1.34.5 @ DESKTOP-MDMQAAG, commencing Lanczos iteration
+05/06/20 08:10:27 v1.34.5 @ DESKTOP-MDMQAAG, memory use: 3.1 MB
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, lanczos halted after 409 iterations (dim = 25781)
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, recovered 16 nontrivial dependencies
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, prp39 = 334444616761435189484191904554530255047
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, prp39 = 304643513883571219680513378958891587797
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, Lanczos elapsed time = 1.7150 seconds.
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, Sqrt elapsed time = 0.0180 seconds.
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, SIQS elapsed time = 104.1087 seconds.
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, 
+05/06/20 08:10:28 v1.34.5 @ DESKTOP-MDMQAAG, 
+05/06/20 08:10:29 v1.34.5 @ DESKTOP-MDMQAAG, Total factoring time = 127.6344 seconds
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, 
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, ****************************
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, Starting factorization of 101886383249647936993768038558632029819971268904921994147982510997493202861459
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using pretesting plan: normal
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, no tune info: using qs/gnfs crossover of 95 digits
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, ****************************
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, starting SIQS on c78: 101886383249647936993768038558632029819971268904921994147982510997493202861459
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, random seeds: 4000713162, 3234142648
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, ==== sieve params ====
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, n = 78 digits, 256 bits
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, factor base: 36160 primes (max prime = 912007)
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, single large prime cutoff: 77520595 (85 * pmax)
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using 32k sieve core
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, sieve interval: 10 blocks of size 32768
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, polynomial A has ~ 10 factors
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using multiplier of 1
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using SPV correction of 20 bits, starting at offset 31
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using SSE2 for trial division and x64 sieve scanning
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using SSE4.1 enabled 32k sieve core
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, using SSE2 for resieving 13-16 bit primes
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, trial factoring cutoff at 88 bits
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, ==== sieving started (1 thread) ====
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, trial division touched 0 sieve locations out of 0
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, 36267 relations found: 18157 full + 18110 from 190203 partial, using 0 polys (-1 A polys)
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, on average, sieving found 1.#J rels/poly and 947672.44 rels/sec
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, trial division touched 0 sieve locations out of 0
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, ==== post processing stage (msieve-1.38) ====
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, begin with 208359 relations
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, reduce to 52099 relations in 2 passes
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, recovered 52099 relations
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, recovered 36735 polynomials
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, freed 18 duplicate relations
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, attempting to build 36248 cycles
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, found 36248 cycles in 1 passes
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, distribution of cycle lengths:
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG,    length 1 : 18155
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG,    length 2 : 18093
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, largest cycle: 2 relations
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, matrix is 36160 x 36248 (5.2 MB) with weight 1067635 (29.45/col)
+05/06/20 08:10:52 v1.34.5 @ DESKTOP-MDMQAAG, sparse part has weight 1067635 (29.45/col)
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, filtering completed in 3 passes
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, matrix is 25832 x 25895 (4.1 MB) with weight 862129 (33.29/col)
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, sparse part has weight 862129 (33.29/col)
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, saving the first 48 matrix rows for later
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, matrix is 25784 x 25895 (3.3 MB) with weight 697415 (26.93/col)
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, sparse part has weight 614174 (23.72/col)
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, matrix includes 64 packed rows
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, using block size 10358 for processor cache size 3072 kB
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, commencing Lanczos iteration
+05/06/20 08:10:53 v1.34.5 @ DESKTOP-MDMQAAG, memory use: 3.1 MB
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, lanczos halted after 409 iterations (dim = 25781)
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, recovered 16 nontrivial dependencies
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, prp39 = 334444616761435189484191904554530255047
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, prp39 = 304643513883571219680513378958891587797
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, Lanczos elapsed time = 1.6990 seconds.
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, Sqrt elapsed time = 0.0510 seconds.
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, SIQS elapsed time = 1.9698 seconds.
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, 
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, 
+05/06/20 08:10:54 v1.34.5 @ DESKTOP-MDMQAAG, Total factoring time = 2.0388 seconds
