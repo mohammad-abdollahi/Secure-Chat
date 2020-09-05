@@ -1,2 +1,2 @@
 # Secure-Chat
-Final project for Cyber Security course at IUT
+Final project and course material for Cyber Security course at IUT
